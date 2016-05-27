@@ -22,15 +22,17 @@
 					<container>
 						<containerId>tomcat8x</containerId>
 						<type>installed</type>
-						   <!--<home>${env.TOMCAT_HOME}</home>-->
-						   <home>${env.CATALINA_HOME}</home>
+						   <!--<home>${env.TOMCAT_HOME}</home>
+						   <home>${env.CATALINA_HOME}</home>-->
+						   <home>/usr/share/tomcat7/</home>
 						
 						
 					</container>
 					<configuration>
 						<type>existing</type>
-						 <!--<home>${env.TOMCAT_HOME}</home>-->
-						   <home>${env.CATALINA_HOME}</home>
+					       <!--<home>${env.TOMCAT_HOME}</home>
+						   <home>${env.CATALINA_HOME}</home>-->
+						   <home>/usr/share/tomcat7/</home>
 					</configuration>
 				</configuration>
 				<executions>
