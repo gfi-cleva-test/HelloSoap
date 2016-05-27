@@ -32,7 +32,7 @@
 						<type>existing</type>
 					       <!--<home>${env.TOMCAT_HOME}</home>
 						   <home>${env.CATALINA_HOME}</home>-->
-						   <home>/usr/share/tomcat7-root/</home>
+						  <home>/usr/share/tomcat7-root/</home>
 					</configuration>
 				</configuration>
 				<executions>
