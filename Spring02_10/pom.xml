@@ -24,7 +24,7 @@
 						<type>installed</type>
 						   <!--<home>${env.TOMCAT_HOME}</home>
 						   <home>${env.CATALINA_HOME}</home>-->
-						   <home>/usr/share/tomcat7/</home>
+						   <home>/var/lib/tomcat7/</home>
 						
 						
 					</container>
@@ -32,7 +32,7 @@
 						<type>existing</type>
 					       <!--<home>${env.TOMCAT_HOME}</home>
 						   <home>${env.CATALINA_HOME}</home>-->
-						  <home>/usr/share/tomcat7/</home>
+						  <home>/var/lib/tomcat7/</home>
 					</configuration>
 				</configuration>
 				<executions>
